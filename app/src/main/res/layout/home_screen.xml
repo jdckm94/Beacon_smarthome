@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".HomeScreenActivity">
+
+    <ImageButton
+        android:id="@+id/Menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="128dp"
+        android:background="#00FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.142"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_menu"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/MorningJohn"
+        android:layout_width="289dp"
+        android:layout_height="88dp"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/mbold"
+        android:text="Good Morning,
+        John"
+        android:textColor="#2D2840"
+        android:textSize="32sp"
+        app:layout_constraintHorizontal_bias="0.442"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Menu"
+        app:layout_goneMarginTop="50dp" />
+
+    <TextView
+        android:id="@+id/Devices"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/msemi"
+        android:text="Devices"
+        android:textColor="#2D2840"
+        android:textSize="16sp"
+        app:layout_constraintHorizontal_bias="0.155"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/MorningJohn"
+        app:layout_goneMarginTop="50dp" />
+
+    <ImageButton
+        android:id="@+id/BttnAddDevice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="288dp"
+        android:background="#00FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.683"
+        app:layout_constraintStart_toEndOf="@+id/Devices"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/bttn_add_device"
+        tools:ignore="MissingConstraints" />
+
+    <ImageButton
+        android:id="@+id/BttnMoreOption"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="288dp"
+        android:background="#00FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.329"
+        app:layout_constraintStart_toEndOf="@+id/BttnAddDevice"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/bttn_more_options"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/NoDevice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:background="#4DFFFFFF"
+        android:src="@drawable/no_devices"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Devices" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

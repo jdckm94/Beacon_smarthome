@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Beacon smarthome</string>
+    <color name="dark_blue">#32305E</color>
+    <color name="light_blue">#4A4DE6</color>
+    <color name="grey">#CCCCCC</color>
+    <color name="magenta">#4A4DE6</color>
+
+</resources>
